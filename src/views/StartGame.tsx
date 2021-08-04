@@ -64,7 +64,6 @@ const StartGame: FC = () => {
           color='secondary'
           onClick={() => setDialog({ ...dialog, createGame: true })}
         >
-          {' '}
           create new game
         </Button>
         <Button className={classes.animatedButton} variant='contained' size='large' color='secondary'>
