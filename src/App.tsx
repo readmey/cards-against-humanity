@@ -3,7 +3,7 @@ import '@fontsource/roboto';
 import StartGame from './views/StartGame';
 import { Route, Switch } from 'react-router-dom';
 
-function App() {
+function App(): JSX.Element {
   return (
     <div className='App'>
       <Switch>
