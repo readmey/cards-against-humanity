@@ -76,11 +76,11 @@ const StartGame: FC = () => {
           open={dialog.createGame}
           btnText='Create Game'
         >
-          <Box display='flex' alignItems='center'>
+          <Box display='flex' alignItems='center' justifyContent='flex-end' p={1}>
             share game <LinkIcon className={classes.icon} />
           </Box>
-          <TextField className={classes.textField} placeholder='Player name' variant='outlined' size='small' fullWidth />
-          <TextField placeholder='Group name' variant='outlined' size='small' fullWidth />
+          <TextField className={classes.textField} placeholder='player name' variant='filled' size='small' fullWidth />
+          <TextField placeholder='group name' variant='filled' size='small' fullWidth />
         </CustomDialog>
       </Box>
     </>
